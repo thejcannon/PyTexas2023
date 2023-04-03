@@ -1,6 +1,6 @@
 ---
 marp: true
-footer: #PyTexas 2023 - A Build Engineer in a buildless lang
+footer: '#PyTexas 2023 - A Build Engineer in a buildless lang - ![w:40 h:20](./images/discord.png) thejcannon#4100'
 theme: gaia
 class:
   - lead
@@ -292,8 +292,6 @@ It's subjective, it fits my organization's needs
   }
 </style>
 
-<!-- @TODO: last is arrow -->
-
 <!-- prettier-ignore -->
 * Testing
   * `pytest`
@@ -355,13 +353,11 @@ without the overhead and baggage.
 
 # Pants ![w:50 h:40](./images/pytexas.svg)
 
-<!-- TODO: Demo of running tools -->
-
 <!-- prettier-ignore -->
 * Runs all our tools/code with one UI (CLI)
-  - `./pants --changed-since=main fix`
-  - `./pants transitive check test`
-  - `./pants run path/to/myfile.py`
+  - `pants --changed-since=main fix`
+  - `pants transitive check test`
+  - `pants run path/to/myfile.py`
 * Fine-grained Dependency Inference
 * Incremental
 * __Extreme__ caching
